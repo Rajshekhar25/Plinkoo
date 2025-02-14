@@ -1,0 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.FoundIssue = void 0;
+const jsx_runtime_1 = require("react/jsx-runtime");
+const FoundIssue = () => {
+    return ((0, jsx_runtime_1.jsx)("div", { className: "mb-24 lg:mb-32 mt-16 lg:mt-0 bg-[#262522] w-[96%] max-w-screen-lg mx-auto px-14 py-14 rounded-[36px]", children: (0, jsx_runtime_1.jsxs)("div", { className: "lg:grid grid-cols-[45%,1fr] gap-28", children: [(0, jsx_runtime_1.jsx)("div", { className: "rounded-xl", children: (0, jsx_runtime_1.jsx)("img", { src: "https://res.cloudinary.com/dcugqfvvg/image/upload/v1713657312/undraw_questions_re_1fy7_kqjpu3.svg", alt: "chess-board" }) }), (0, jsx_runtime_1.jsxs)("div", { className: "mt-16 lg:mt-0", children: [(0, jsx_runtime_1.jsx)("h1", { className: "text-6xl text-white font-bold text-left mt-[-10px]", children: "Found an Issue!" }), (0, jsx_runtime_1.jsx)("p", { className: "text-xl mt-6 text-white", children: "Please create an issue in our github website below. You are also invited to contribute on the project." }), (0, jsx_runtime_1.jsxs)("a", { href: "https://github.com/code100x/plinkoo/issues", target: "_blank", className: "mt-10 text-white rounded-2xl px-4 py-4 border border-slate-400 bg-transparent w-full text-2xl flex gap-10 items-center justify-center", children: [(0, jsx_runtime_1.jsx)("img", { className: "w-16 h-16", src: "https://res.cloudinary.com/dcugqfvvg/image/upload/v1713657100/github-svgrepo-com_uosbko.svg", alt: "icon" }), (0, jsx_runtime_1.jsx)("p", { className: "text-4xl", children: "Github" })] })] })] }) }));
+};
+exports.FoundIssue = FoundIssue;

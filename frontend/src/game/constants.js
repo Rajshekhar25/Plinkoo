@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.NUM_SINKS = exports.sinkWidth = exports.verticalFriction = exports.horizontalFriction = exports.gravity = exports.obstacleRadius = exports.ballRadius = exports.HEIGHT = exports.WIDTH = void 0;
+const padding_1 = require("./padding");
+exports.WIDTH = 800;
+exports.HEIGHT = 800;
+exports.ballRadius = 7;
+exports.obstacleRadius = 4;
+exports.gravity = (0, padding_1.pad)(0.6);
+exports.horizontalFriction = 0.4;
+exports.verticalFriction = 0.8;
+exports.sinkWidth = 36;
+exports.NUM_SINKS = 17;
